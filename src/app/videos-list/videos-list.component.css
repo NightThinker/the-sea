@@ -1,0 +1,87 @@
+
+
+.responsive-video {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.content {
+  width: 100%;
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*===========grid================*/
+
+.project-grid {
+  width: 1030px;
+  max-width: 100%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  position: relative;
+  height: 2000px;
+}
+
+.grid-item {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+  z-index: 1002;
+  -webkit-transform: translate(0,0px);
+  -ms-transform: translate(0,0px);
+  -o-transform: translate(0,0px);
+  transform: translate(0,0px);
+  opacity: 0;
+}
+
+.grid-style {
+  position: absolute;
+  left: 0%;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  opacity: 1;
+}
+
+
+
+@media screen  and (max-width: 1200px){
+  .clear-big {
+    clear: left;
+  }
+}
+
+@media screen  and (max-width: 700px){
+  .content {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}
+
+
+@media screen  and (max-width: 650px){
+  .content {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}

@@ -76,27 +76,62 @@ h1 {
 h4 {
   font-size: 1.5em;
 }
-
-
-@media screen  and (max-width: 1200px){
+@media screen  and (max-width: 1800px){
   .back {
-    height: 650px;
+    height: 700px;
   }
 
   .conti {
-    margin-top: -330px; /* Half the height */
-    margin-left: -220px;
+    margin-top: -340px; /* Half the height */
+    margin-left: -480px;
+  }
+}
+@media screen  and (max-width: 1600px){
+  .back {
+    height: 650px;
+  }
+  .conti {
+    margin-top: -340px; /* Half the height */
+    margin-left: -420px;
+  }
+}
+@media screen  and (max-width: 1400px){
+
+  .conti {
+    margin-top: -340px; /* Half the height */
+    margin-left: -390px;
+  }
+}
+
+@media screen  and (max-width: 1200px){
+
+  .conti {
+    margin-top: -340px; /* Half the height */
+    margin-left: -350px;
   }
 }
 
 @media screen  and (max-width: 992px){
+  h1 {
+    font-size: 3.9em;
+  }
+  h4 {
+    font-size: 1.5em;
+  }
   .back {
     height: 550px;
   }
 
   .conti {
-    margin-top: -330px; /* Half the height */
-    margin-left: -220px;
+    margin-top: -250px; /* Half the height */
+    margin-left: -290px;
+  }
+}
+
+@media screen  and (max-width: 900px){
+  .conti {
+    margin-top: -290px; /* Half the height */
+    margin-left: -285px;
   }
 }
 
@@ -106,12 +141,18 @@ h4 {
   }
 
   .conti {
-    margin-top: -330px; /* Half the height */
+    margin-top: -390px; /* Half the height */
     margin-left: -220px;
   }
 }
 
 @media screen  and (max-width: 700px){
+  h1 {
+    font-size: 4.2em;
+  }
+  h4 {
+    font-size: 1.5em;
+  }
   #holder-bg {
     background-image: url("../../assets/images/sea_1500_600.jpg");
     background-repeat: no-repeat;
@@ -132,12 +173,18 @@ h4 {
   }
 
   .conti {
-    margin-top: -290px; /* Half the height */
+    margin-top: -370px; /* Half the height */
     margin-left: -200px;
   }
 }
 
 @media screen  and (max-width: 650px){
+  h1 {
+    font-size: 4em;
+  }
+  h4 {
+    font-size: 1.5em;
+  }
   #holder-bg {
     background-image: url("../../assets/images/sea_1500_650.jpg");
     background-repeat: no-repeat;
@@ -163,6 +210,12 @@ h4 {
 }
 
 @media screen  and (max-width: 500px){
+  h1 {
+    font-size: 3.1em;
+  }
+  h4 {
+    font-size: 1.2em;
+  }
   #holder-bg {
     background-image: url("../../assets/images/sea_1500_500.jpg");
     background-repeat: no-repeat;
@@ -201,6 +254,12 @@ h4 {
 }
 
 @media screen  and (max-width: 400px){
+  h1 {
+    font-size: 3em;
+  }
+  h4 {
+    font-size: 1.1em;
+  }
   .center {
     left: 2.5em;
     top: 14em;
@@ -218,6 +277,12 @@ h4 {
 }
 
 @media screen  and (max-width: 340px){
+  h1 {
+    font-size: 2.5em;
+  }
+  h4 {
+    font-size: 1em;
+  }
   .center {
     left: 2.5em;
     top: 10em;
@@ -228,6 +293,12 @@ h4 {
 
 }
 @media screen  and (max-width: 320px){
+  /*h1 {*/
+    /*font-size: 2.5em;*/
+  /*}*/
+  /*h4 {*/
+    /*font-size: 1em;*/
+  /*}*/
   .center {
     left: 2.5em;
     top: 5em;

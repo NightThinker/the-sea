@@ -17,6 +17,7 @@ import { HomeComponent } from './home/home.component';
 import {AppRoutingModule} from './app-routing.module';
 import {SeaPhotoService} from './home/sea-photo.service';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { SeaDetailComponent } from './home/sea-detail/sea-detail.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     FooterComponent,
     AnimaDirective,
     AboutUsComponent,
-    HomeComponent
+    HomeComponent,
+    SeaDetailComponent
   ],
   imports: [
     BrowserModule,

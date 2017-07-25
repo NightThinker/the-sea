@@ -41,6 +41,7 @@ import {Seas} from "../seas.model";
 })
 export class SeaListComponent implements OnInit {
   @Input() seas: Seas;
+  @Input() index: number;
 
   constructor() { }
 

@@ -1,0 +1,19 @@
+<app-holder></app-holder>
+<!--<div class="main-box">-->
+  <!--&lt;!&ndash;<div class="two-a-row" style="display: block">&ndash;&gt;-->
+    <!--<app-sea-list  *ngFor="let seaEl of seas"-->
+                   <!--[seas]="seaEl" class="two-a-row" style="display: block"></app-sea-list>-->
+  <!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--</div>-->
+<div class="main-box">
+<div class="row">
+  <!--<div class="col-lg-3">-->
+    <app-sea-list  *ngFor="let seaEl of seas"
+                   [seas]="seaEl" class="col-md-3 col-sm-6" style="display: block"></app-sea-list>
+  <!--</div>-->
+</div>
+</div>
+
+
+<app-videos-list ></app-videos-list>
+<app-footer></app-footer>

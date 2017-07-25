@@ -1,7 +1,12 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+.container {
+  padding-left: 5px;
+  padding-right: 10px;
+}
 
 .navbar {
+  /*background-color: transparent;*/
   margin-bottom: 0;
 }

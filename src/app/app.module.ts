@@ -6,12 +6,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { HolderComponent } from './holder/holder.component';
-import { SeaListComponent } from './sea-list/sea-list.component';
-import { VideosListComponent } from './videos-list/videos-list.component';
+import { HolderComponent } from './home/holder/holder.component';
+import { SeaListComponent } from './home/sea-list/sea-list.component';
+import { VideosListComponent } from './home/videos-list/videos-list.component';
 import { FooterComponent } from './footer/footer.component';
-import {SeaService} from './sea.service';
 import { AnimaDirective } from './anima.directive';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { HomeComponent } from './home/home.component';
+
+import {AppRoutingModule} from './app-routing.module';
+import {SeaPhotoService} from './home/sea-photo.service';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 @NgModule({
@@ -22,15 +27,19 @@ import { AnimaDirective } from './anima.directive';
     SeaListComponent,
     VideosListComponent,
     FooterComponent,
-    AnimaDirective
+    AnimaDirective,
+    AboutUsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    FlexLayoutModule
   ],
-  providers: [SeaService],
+  providers: [SeaPhotoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

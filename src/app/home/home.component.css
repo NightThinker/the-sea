@@ -1,0 +1,13 @@
+.list-a-row{
+  float:left;
+  display:table-column;
+  width:25%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+.main-box{
+  width: 100%;
+  box-sizing: border-box;
+}

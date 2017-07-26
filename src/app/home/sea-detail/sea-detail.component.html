@@ -1,6 +1,15 @@
 <div class="single-project">
-  <p style="margin-top: 100px">
-    sea-detail works!
-  </p>
+  <!-- anima fade-in -->
+  <div class="first-project">
+     <div class="background" [ngStyle]="{ 'background-image': 'url(' + sea.imagePath + ')'}"></div> 
+    <!-- <app-holder></app-holder> -->
+  </div>
+  <!-- anima fade-in animation-duration: .5s-->
+  <div class="project-content">
+    <div class="row">
+      <div class="five colums text-large offset-by-five tablet-three">
+        <p style="border: 1px solid red;">tes{{sea.desc}}</p>
+      </div>
+    </div>
+  </div>
 </div>
-

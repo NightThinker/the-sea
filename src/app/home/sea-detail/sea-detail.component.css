@@ -4,4 +4,136 @@
   max-width: 100%;
   position: absolute;
   top: 0;
+  margin-top: 50px; 
 }
+
+/* .single-project .first-project {
+    width: 100%;
+    margin: 0;
+    float: left;
+    height: 90vh;
+    position: relative;
+  
+} */
+.single-project .project-content {
+    float: left;
+    width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    display: block;
+    overflow: auto;
+}
+  .row {
+    width: 1188px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+  .column, .columns {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    position: relative;
+}
+  .five, .row .five {
+    width: 41.66667%;
+}
+  .row .offset-by-five {
+    margin-left: 41.66667%;
+}
+  .text-large {
+        font-size: 18px ;
+    letter-spacing: .02em;
+  }
+
+
+.background {
+  position: relative;
+  z-index: 0;
+   height: 800px; 
+
+   background-size: cover; 
+  /* background-image: url("https://wallpaperscraft.com/image/sea_waves_beach_clouds_86182_1920x1080.jpg"); */
+  background-position: center;
+}
+
+@media screen  and (max-width: 1800px){
+  .background {
+    height: 700px;
+  }
+  .single-project .first-project {
+    width: 100%;
+    margin: 0;
+    float: left;
+    height: 740px;
+    position: relative;
+  
+}
+}
+@media screen  and (max-width: 1600px){
+  .background {
+    height: 650px;
+  }
+    .single-project .first-project {
+    height: 690px;
+  }
+}
+@media screen  and (max-width: 992px){
+  .background {
+    height: 550px;
+  }
+      .single-project .first-project {
+    height: 590px;
+  }
+}
+@media screen  and (max-width: 768px){
+  .background {
+    height: 900px;
+  }
+      .single-project .first-project {
+    height: 940px;
+  }
+  .row {
+    width: 90%;
+}
+  .row .offset-by-five {
+    margin-left: 0;
+}
+  .row .tablet-three {
+    width: 73.9% !important;
+}
+}
+@media screen  and (max-width: 700px){
+  .background {
+    height: 890px;
+  }
+      .single-project .first-project {
+    height: 930px;
+  }
+}
+@media screen  and (max-width: 650px){
+  .background {
+    height: 800px;
+  }
+      .single-project .first-project {
+    height: 840px;
+  }
+}
+
+@media screen  and (max-width: 500px){
+  .background {
+    height: 620px;
+  }
+      .single-project .first-project {
+    height: 660px;
+  }
+}
+@media screen  and (max-width: 320px){
+  .background {
+    height: 500px;
+  }
+      .single-project .first-project {
+    height: 540px;
+  }
+}
+  

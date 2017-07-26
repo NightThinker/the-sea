@@ -65,6 +65,49 @@ img {
 }
 
 
+.list-a-row{
+  float:left;
+  display:table-column;
+  width:25%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.main-box{
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .list-a-row {
+    width:100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .main-box {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .list-a-row {
+    width:50%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .list-a-row {
+    width:25%;
+  }
+}
+
+
+
+
 
 
 

@@ -8,12 +8,12 @@ import {Seas} from './seas.model';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  seas: Seas[];
+  // seas: Seas[];
 
-  constructor(private seasServeice: SeaPhotoService) { }
+  constructor() { }
 
   ngOnInit() {
-    this.seas = this.seasServeice.getSeas();
+    // this.seas = this.seasServeice.getSeas();
   }
 
 }

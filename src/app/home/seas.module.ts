@@ -12,6 +12,7 @@ import { FooterComponent } from '../footer/footer.component';
 import { SeaPhotoService } from './sea-photo.service';
 
 import {SeaRoutingModule} from './seas-routing.module';
+import { MouesDirective } from './moues.directive';
 
 @NgModule({
   imports: [
@@ -25,7 +26,8 @@ import {SeaRoutingModule} from './seas-routing.module';
     HomeComponent,
     HolderComponent,
     VideosListComponent,
-    FooterComponent
+    FooterComponent,
+    MouesDirective
   ],
   providers: [ SeaPhotoService ]
 })

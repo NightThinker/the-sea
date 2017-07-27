@@ -1,0 +1,6 @@
+.vh-4 {
+    min-height: 200px;
+    min-height: 4vh;
+    width: 100%;
+    display: inline-block;
+}

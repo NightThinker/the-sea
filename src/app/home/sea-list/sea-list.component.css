@@ -9,7 +9,9 @@
 img {
   width: 100%;
 }
-
+.row {
+  background-color: #f7f4f3;
+}
 
 .content {
   width: 100%;

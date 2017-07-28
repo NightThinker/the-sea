@@ -1,3 +1,19 @@
+.footer {
+  width: 100%;
+  max-width: 100%;
+  float: left;
+  box-sizing: border-box;
+  background-color: #2d3e65;
+  color: #fff;
+}
+
+.vh-7 {
+    min-height: 200px;
+    min-height: 7vh;
+    width: 100%;
+    display: inline-block;
+}
+
 .vh-4 {
     min-height: 200px;
     min-height: 4vh;

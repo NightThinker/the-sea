@@ -9,7 +9,7 @@ import {slideInDownAnimation} from '../../animations';
 @Component({
   selector: 'app-sea-detail',
   templateUrl: './sea-detail.component.html',
-  styleUrls: ['./sea-detail.component.css'],
+  styleUrls: ['./sea-detail.component.scss'],
   animations: [ slideInDownAnimation ]
 })
 export class SeaDetailComponent implements OnInit {

@@ -4,7 +4,7 @@ import {animate, group, keyframes, state, style, transition, trigger} from '@ang
 @Component({
   selector: 'app-videos-list',
   templateUrl: './videos-list.component.html',
-  styleUrls: ['./videos-list.component.css'],
+  styleUrls: ['./videos-list.component.scss'],
   animations: [
     trigger('listSea', [
       state('in', style({

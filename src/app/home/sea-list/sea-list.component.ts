@@ -8,7 +8,7 @@ import { Observable } from 'rxjs/Observable';
 @Component({
   selector: 'app-sea-list',
   templateUrl: './sea-list.component.html',
-  styleUrls: ['./sea-list.component.css'],
+  styleUrls: ['./sea-list.component.scss'],
   animations: [
     trigger('listSea', [
       state('in', style({

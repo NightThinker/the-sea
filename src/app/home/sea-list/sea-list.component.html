@@ -1,4 +1,4 @@
-   <app-holder></app-holder>   
+<app-header></app-header>
 <div class="row" style="margin-right: 0;
     margin-left: 0;">
   <div class="col-md-3 col-sm-6" *ngFor="let seaEl of seas | async" [class.selected]="isSelected(seaEl)" (click)="onSelect(seaEl)"
@@ -10,5 +10,5 @@
     </div>
   </div>
 </div>
-   <app-videos-list ></app-videos-list>
-<app-footer></app-footer>   
+<app-videos-list></app-videos-list>
+<app-footer></app-footer>

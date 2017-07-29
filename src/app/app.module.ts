@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
+// import { HeaderComponent } from './header/header.component';
 // import { HolderComponent } from './home/holder/holder.component';
 // import { SeaListComponent } from './home/sea-list/sea-list.component';
 // import { VideosListComponent } from './home/videos-list/videos-list.component';
@@ -19,19 +19,21 @@ import {SeaPhotoService} from './home/sea-photo.service';
 // import { SeaDetailComponent } from './home/sea-detail/sea-detail.component';
 import {SeasModule} from './home/seas.module';
 import { SeaComponent } from './sea/sea.component';
+import { NavigationsComponent } from './navigations/navigations.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
+    // HeaderComponent,
     // HolderComponent,
     // SeaListComponent,
     // VideosListComponent,
     // FooterComponent,
     AnimaDirective,
     AboutUsComponent,
-    SeaComponent
+    SeaComponent,
+    NavigationsComponent
     // HomeComponent
     // SeaDetailComponent
   ],

@@ -1,0 +1,71 @@
+@import '../../scss/fonts';
+
+.header {
+    background-image: url("../../../assets/images/sea_stones_day.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+.header-overlay {
+    background-color: rgba(31, 31, 31, 0.75);
+    height: 800px;
+}
+.logo {
+    padding-bottom: 50px;
+}
+.header-text {
+    color: #fff;
+    font-family: $raleway;
+    h1{
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 45px;
+    padding-top: 30px;
+    text-transform: uppercase;
+    }
+ p {
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 300;
+}
+}
+.header-btns {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.btn-view,
+.btn-view:focus,
+.btn-view:active,
+.btn-view:visited{
+    background: transparent;
+    border: 2px solid #129CF3;
+    padding: 10px 30px 10px 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+
+
+}
+.btn-view:hover {
+    background-color: #129CF3; 
+    color: #fff;
+    text-decoration: none;
+}
+.btn-view{
+    a{
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+.header-girl img{
+    width: 100%;
+}

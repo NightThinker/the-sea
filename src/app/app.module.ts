@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
 // import { HolderComponent } from './home/holder/holder.component';
 // import { SeaListComponent } from './home/sea-list/sea-list.component';
 // import { VideosListComponent } from './home/videos-list/videos-list.component';
-// import { FooterComponent } from './footer/footer.component';
+import { FooterComponent } from './footer/footer.component';
 import { AnimaDirective } from './anima.directive';
 import { AboutUsComponent } from './about-us/about-us.component';
 // import { HomeComponent } from './home/home.component';
@@ -29,7 +29,7 @@ import { NavigationsComponent } from './navigations/navigations.component';
     // HolderComponent,
     // SeaListComponent,
     // VideosListComponent,
-    // FooterComponent,
+    FooterComponent,
     AnimaDirective,
     AboutUsComponent,
     SeaComponent,

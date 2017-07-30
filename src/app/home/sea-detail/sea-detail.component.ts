@@ -14,10 +14,7 @@ import {slideInDownAnimation} from '../../animations';
 })
 export class SeaDetailComponent implements OnInit {
 
-  // @HostBinding('@routeAnimation') routeAnimation = true;
-  // @HostBinding('style.display')   display = 'block';
-  // @HostBinding('style.position')  position = 'absolute';
-
+  @HostBinding('@routeAnimation') routeAnimation = true;
   sea: Sea;
 
   constructor(
@@ -32,13 +29,5 @@ export class SeaDetailComponent implements OnInit {
         this.service.getSea(params.get('id')))
       .subscribe((sea: Sea) => this.sea = sea);
   }
-
-  // gotoSeas() {
-  //   let seaId = this.sea ? this.sea.id : null;
-  //   // Pass along the hero id if available
-  //   // so that the HeroList component can select that hero.
-  //   // Include a junk 'foo' property for fun.
-  //   this.router.navigate(['/test', { id: seaId, foo: 'foo' }]);
-  // }
 
 }

@@ -1,3 +1,4 @@
+@import '../scss/fonts'; 
 .footer {
   width: 100%;
   max-width: 100%;
@@ -5,18 +6,40 @@
   box-sizing: border-box;
   background-color: #2d3e65;
   color: #fff;
+  font-family: $raleway;
+  padding-top: 90px;
+  padding-bottom: 50px;
 }
 
-.vh-7 {
-    min-height: 200px;
-    min-height: 7vh;
-    width: 100%;
-    display: inline-block;
-}
+.footer-item {
+  position: relative;
+  font-size: 19px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  color: #fff;
+  p {
+    padding-left: 20px;
+    font-size: 14px;  
+  }
+  a {
+    color: #fff;
+    text-transform: none;
+    font-size: 14px; 
+    padding-left: 20px;
+  }
+//a:fogus :hover
+ .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    i {
+      font-size: 15px;
+      color: #129CF3;
+      transition: all 1s;
+      -webkit-transition: all 1s;
+      -o-transition: all 1s;
+      -moz-transition: all 1s;
+    }
+  }
 
-.vh-4 {
-    min-height: 200px;
-    min-height: 4vh;
-    width: 100%;
-    display: inline-block;
 }
